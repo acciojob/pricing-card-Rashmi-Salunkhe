@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Times New Roman;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+	 background-color: #fff;
+    margin: 0;
+}
+
+.card {
+    width: 300px;
+	height: 450px;
+    padding: 35px;
+	margin-top: 40px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 1px 1px 0 0;
+}
+
+.card-title {
+    margin: 1px 0;
+    font-size: 40px;
+    color: black;
+	font-weight: bold;
+}
+
+.card-price {
+    margin: 1px 0;
+    font-size: 25px;
+    color: black;
+}
+
+.card-description {
+    margin: 10px 0 20px;
+    font-size: 25px;
+    color: black;
+}
+
+.card-button {
+    padding: 10px 20px;
+    background-color: #F35A65;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
